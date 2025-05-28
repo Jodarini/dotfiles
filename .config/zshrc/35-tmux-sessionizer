@@ -1,0 +1,3 @@
+bindkey -s ^f "tmux-sessionizer\n"
+bindkey -M viins 'kk' vi-cmd-mode
+bindkey -v

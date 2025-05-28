@@ -1,0 +1,36 @@
+return {
+  -- "folke/zen-mode.nvim",
+  -- keys = {
+  --   { "<leader>z", "<cmd>ZenMode<cr>", desc = "Toggle Zen Mode" },
+  -- },
+  -- opts = {
+  --   window = {
+  --     backdrop = 0.95, -- shade the backdrop of the Zen window. Set to 1 to keep the same as Normal
+  --     width = 0.5, -- width of the Zen window (0.85 = 85%)
+  --     options = {
+  --       signcolumn = "no", -- disable signcolumn
+  --       number = false, -- disable number column
+  --       relativenumber = true, -- disable relative numbers
+  --       cursorline = true, -- disable cursorline
+  --       cursorcolumn = false, -- disable cursor column
+  --       foldcolumn = "0", -- disable fold column
+  --       list = false, -- disable whitespace characters
+  --     },
+  --   },
+  --   plugins = {
+  --     -- gitsigns = { enabled = false }, -- disables git signs
+  --     -- tmux = { enabled = false }, -- disables tmux statusline
+  --     -- twilight = { enabled = true }, -- enables twilight (dimming inactive code)
+  --   },
+  --   -- callback where you can add custom code when the Zen window opens
+  --   on_open = function(win)
+  --     vim.cmd("set wrap") -- enable line wrapping
+  --     vim.cmd("set linebreak") -- wrap at word boundaries
+  --   end,
+  --   -- callback where you can add custom code when the Zen window closes
+  --   on_close = function()
+  --     vim.cmd("set nowrap") -- disable line wrapping
+  --     vim.cmd("set nolinebreak") -- disable word-boundary wrapping
+  --   end,
+  -- },
+}
