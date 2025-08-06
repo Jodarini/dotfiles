@@ -12,4 +12,3 @@ vim.opt.wrap = true -- Enable line wrapping
 vim.opt.linebreak = true -- Break lines at word boundaries
 vim.opt.formatoptions:append("t") -- Auto-wrap text using textwidth
 -- vim.opt.guicursor = "n-v-c:block-Cursor/lCursor"
-vim.cmd("highlight BlinkCmpKindSuperMaven guibg=NONE")

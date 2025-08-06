@@ -10,4 +10,3 @@ vim.opt.clipboard = "unnamed"
 vim.opt.timeoutlen = 1000
 -- Set to false to disable auto format
 vim.g.lazyvim_eslint_auto_format = false
-vim.cmd("highlight BlinkCmpKindSuperMaven guibg=NONE")

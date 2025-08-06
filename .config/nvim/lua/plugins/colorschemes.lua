@@ -66,7 +66,7 @@ return {
           surface2 = "#585b70",
           surface1 = "#45475a",
           surface0 = "#313244",
-          base = "#1e1e2e",
+          base = "#1B1E28",
           mantle = "#181825",
           crust = "#11111b",
         },
@@ -140,5 +140,22 @@ return {
     opts = {
       colorscheme = "catppuccin",
     },
+  },
+  {
+    "olivercederborg/poimandres.nvim",
+    lazy = false,
+    priority = 1000,
+    config = function()
+      require("poimandres").setup({
+        -- leave this setup function empty for default config
+        -- or refer to the configuration section
+        -- for configuration options
+      })
+    end,
+
+    -- optionally set the colorscheme within lazy config
+    init = function()
+      vim.cmd("colorscheme poimandres")
+    end,
   },
 }
